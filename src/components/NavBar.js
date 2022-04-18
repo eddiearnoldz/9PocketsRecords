@@ -31,9 +31,9 @@ return (
       }
       onMouseLeave={() => setShowNav(!showNav)}
      >
-      <li className="hover:scale-110 duration-300"><Link to="/artists" onClick={() => setShowNav(!showNav)}>Artists</Link></li>
-      <li className="hover:scale-110 duration-300"><Link to="/about" onClick={() => setShowNav(!showNav)}>About</Link></li>
-      <li className="hover:scale-110 duration-300"><Link to="/contact" onClick={() => setShowNav(!showNav)}>Contact Us</Link></li>
+      <li className="hover:scale-110 duration-300"><Link to="/artists">Artists</Link></li>
+      <li className="hover:scale-110 duration-300"><Link to="/about">About</Link></li>
+      <li className="hover:scale-110 duration-300"><Link to="/contact">Contact Us</Link></li>
     </ul>
   </nav> 
 )
