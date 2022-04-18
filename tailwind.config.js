@@ -3,7 +3,11 @@ module.exports = {
     "./src/**/*.{js,jsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      transitionProperty: {
+        'right': 'right',
+      }
+    },
   },
   plugins: [],
 }

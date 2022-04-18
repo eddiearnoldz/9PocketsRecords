@@ -1,30 +1,41 @@
+import { useState } from "react"
 import { Link } from "react-router-dom"
+
 const NavBar = () => {
+  const[showNav, setShowNav] = useState(false)
+
 return (
-  <nav className='md:flex justify-between items-center bg-black sticky top-0 z-20'>
+  <nav className='md:flex md:justify-between justify-center items-center bg-black sticky top-0 z-20'>
     <div className= "flex items-center justify-between">
-    <Link to="/"><img className='h-10 w-51 m-3 ml-10 'src={'/images/9Plogo.png'} alt="logo"/></Link>
-    <Link to="/"><img className='h-7 w-7 m-3 ml-10 cursor-pointer md:hidden block'src={'images/white-menu-icon-4.jpg'} alt="logo"/></Link>
+    <Link to="/">
+      <img 
+        className='h-10 w-51 m-3 ml-10 hover:scale-110 duration-300' 
+        src={'/images/9Plogo.png'} alt="logo"/>
+    </Link>
+    <Link to="/">
+      <img 
+        onClick={() => setShowNav(!showNav)}
+        className='h-7 w-7 mr-8 ml-10 cursor-pointer md:hidden block '
+        src='/images/white-menu-icon-4.jpg' alt="logo"/>
+    </Link>
     </div>
 
     
-    <ul className="
-    md:static fixed bottom-40 top-12 
-    md:flex 
-    xl:space-x-11 lg:space-x-9 md:space-x-7 items-center 
-    md:bg-transparent bg-black bg-opacity-75 
-    md:w-auto w-full
-    text-white 
-    md:space-y-0 sm:space-y-7 space-y-5 text-center p-5">
-      <li><Link to="/artists">Artists</Link></li>
-      <li><Link to="/commercial">Commercial/film</Link></li>
-      <li><Link to="/about">About</Link></li>
-      <li><Link to="/contact">Contact Us</Link></li>
+    <ul className={
+    (showNav ? "right-0" : '-right-full') +
+    ` md:static fixed bottom-50 top-12
+      md:flex xl:space-x-11 lg:space-x-9
+      md:space-x-7 items-center md:bg-transparent bg-black bg-opacity-75 
+      md:w-auto w-7/12 text-white
+      md:space-y-0 sm:space-y-7 space-y-5 text-left pr-20 p-8 transition-right duration-700`
+      }
+     >
+      <li className="hover:scale-110 duration-300"><Link to="/artists" onClick={() => setShowNav(!showNav)}>Artists</Link></li>
+      <li className="hover:scale-110 duration-300"><Link to="/about" onClick={() => setShowNav(!showNav)}>About</Link></li>
+      <li className="hover:scale-110 duration-300"><Link to="/contact" onClick={() => setShowNav(!showNav)}>Contact Us</Link></li>
     </ul>
   </nav> 
 )
 }
 
 export default NavBar
-
-//"flex justify-between items-center text-white space-x-7 m-5"

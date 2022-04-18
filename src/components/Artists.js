@@ -1,6 +1,6 @@
 const Artists = () => {
 return (
-  <h1 className="text-xl font-bold underline text-white">Artists</h1>
+  <h1 className="text-xl font-bold underline text-white m-10">Artists</h1>
 )
 }
 

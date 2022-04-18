@@ -9,46 +9,81 @@ const Contact = () => {
     from_email: '',
   });
 
-
+  const onSubmit = (e) => {
+    e.preventDefault();
+    send(
+      '9PocketsRecords',
+      'template_ac764uk',
+      toSend,
+      'gWfY7gMc4qo9a3kBt'
+    )
+      .then((response) => {
+        console.log('SUCCESS!', response.status, response.text);
+        setToSend({from_name: '',
+        message: '',
+        from_email: '',
+      })})
+      .catch((err) => {
+        console.log('FAILED...', err);
+      });
+  };
 
   const handleChange = (e) => {
     setToSend({ ...toSend, [e.target.name]: e.target.value });
   };
+
   return (
     <>
-    <div>
-    <h1 className="text-xl font-bold underline text-white">Contact</h1>
-      <form>
-        <input 
-          type="text" 
-          placeholder="Name"
-          className="validate"
-          id="name" 
-          name='from_name'
-          required="true"
-          value={toSend.from_name}
-          onChange={handleChange} />
-        <input 
-          type="text" 
-          placeholder="Email"
-          id="email" 
-          name='from_email'
-          required="true"
-          value={toSend.from_email}
-          onChange={handleChange} />
-        <input 
-          type="textarea" 
-          placeholder="How can we help?"
-          className="validate"
-          id="text" 
-          name='text'
-          required="true"
-          value={toSend.text}
-          onChange={handleChange} />
-        <button className="btn waves-effect waves-light" type="submit" name="action">Drop the mic</button>
-      </form>
-    </div>
-    </>
+      <div >
+        <div className="p-6 max-w-2xl items-center">
+          <form onSubmit={onSubmit} >
+            <div className="grid grid-cols-2 gap-4 ">
+            <div className="flex flex-col col-span-2">
+              <h1 className=" text-xl font-bold text-white ">We're always looking to meet new faces and here new tunes</h1>
+            </div>
+            <div className="flex flex-col">
+              <input 
+                type="text" 
+                placeholder="Name"
+                className="form-input px-3 py-2 rounded-md"
+                id="name" 
+                name='from_name'
+                required="true"
+                value={toSend.from_name}
+                onChange={handleChange} />
+              </div>
+              <div className="flex flex-col">
+              <input 
+                type="text" 
+                placeholder="Email"
+                className="form-input px-3 py-2 rounded-md"
+                id="email" 
+                name='from_email'
+                required="true"
+                value={toSend.from_email}
+                onChange={handleChange} />
+              </div>
+              <div className="flex flex-col col-span-2">
+              <textarea 
+                type="textarea" 
+                className="form-input px-3 py-2 rounded-md"
+                id="text"
+                rows={5}
+                cols={5}
+                name='text'
+                placeholder="Whats good?"
+                required="true"
+                value={toSend.text}
+                onChange={handleChange} />
+                </div>
+                <div>
+                  <button className="text-white border-2 p-1 rounded hover:scale-105 duration-300" type="submit" name="action">Drop the mic</button>
+                </div>
+              </div>
+            </form>
+          </div>
+      </div>
+  </>
   )
 }
 
