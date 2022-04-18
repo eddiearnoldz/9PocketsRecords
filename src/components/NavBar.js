@@ -14,7 +14,7 @@ return (
     </Link>
     <Link to="#">
       <img 
-        onMouseEnter={() => setShowNav(!showNav)}
+        onClick={() => setShowNav(!showNav)}
         className='h-7 w-7 mr-8 ml-10 cursor-pointer md:hidden block'
         src='/images/white-menu-icon-4.jpg' alt="logo"/>
     </Link>

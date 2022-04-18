@@ -1,7 +1,7 @@
 const Live = () => {
   return (
     <>
-  <h1>Live</h1>
+  <h1 className="text-xl text-white font-bold underline m-5">Live</h1>
     </>
   )
 }
