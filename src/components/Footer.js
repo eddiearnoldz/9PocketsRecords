@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
   <footer className="flex  text-center">
-    <ul className="md:flex flex-wrap fixed md:justify-center items-center text-white inset-x-0 space-x-5 bottom-8">
+    <ul className="md:flex flex-wrap fixed md:justify-center items-center text-white inset-x-0 space-x-5 bottom-5">
         <li><p>9 Pockets Records</p></li>
         <li><p>joey@9pockets.co.uk</p></li>
         <li><p>+44 7772703882</p></li>

@@ -34,12 +34,12 @@ const Contact = () => {
 
   return (
     <>
-      <div >
-        <div className="p-6 max-w-2xl items-center">
+    <div className="grid place-items-center h-full">
+    <div className="p-6 max-w-2xl content-center">
           <form onSubmit={onSubmit} >
-            <div className="grid grid-cols-2 gap-4 ">
+            <div className="grid grid-cols-2 gap-5 ">
             <div className="flex flex-col col-span-2">
-              <h1 className=" text-xl font-bold text-white ">We're always looking to meet new faces and here new tunes</h1>
+              <h1 className=" text-xl font-bold text-white text-center ">We're always looking to meet new faces and hear new tunes</h1>
             </div>
             <div className="flex flex-col">
               <input 
@@ -76,13 +76,14 @@ const Contact = () => {
                 value={toSend.text}
                 onChange={handleChange} />
                 </div>
-                <div>
-                  <button className="text-white border-2 p-1 rounded hover:scale-105 duration-300" type="submit" name="action">Drop the mic</button>
+                <div className="flex flex-col col-span-2 max-w-100 items-center">
+                  <button className="text-white border-2 p-1 rounded mt-3 hover:scale-105 duration-300" type="submit" name="action">Drop the mic</button>
                 </div>
               </div>
             </form>
           </div>
-      </div>
+    </div>
+       
   </>
   )
 }

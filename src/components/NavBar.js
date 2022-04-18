@@ -12,9 +12,9 @@ return (
         className='h-10 w-51 m-3 ml-10 hover:scale-110 duration-300' 
         src={'/images/9Plogo.png'} alt="logo"/>
     </Link>
-    <Link to="/">
+    <Link to="#">
       <img 
-        onClick={() => setShowNav(!showNav)}
+        onMouseEnter={() => setShowNav(!showNav)}
         className='h-7 w-7 mr-8 ml-10 cursor-pointer md:hidden block '
         src='/images/white-menu-icon-4.jpg' alt="logo"/>
     </Link>
@@ -25,10 +25,11 @@ return (
     (showNav ? "right-0" : '-right-full') +
     ` md:static fixed bottom-50 top-12
       md:flex xl:space-x-11 lg:space-x-9
-      md:space-x-7 items-center md:bg-transparent bg-black bg-opacity-75 
-      md:w-auto w-7/12 text-white
-      md:space-y-0 sm:space-y-7 space-y-5 text-left pr-20 p-8 transition-right duration-700`
+      md:space-x-7 items-center md:bg-transparent bg-black bg-opacity-90 rounded-md
+      md:w-auto w-4/12 text-white
+      md:space-y-0 sm:space-y-7 space-y-5 text-center sm:text-left pr-20 p-8 transition-right duration-1000`
       }
+      onMouseLeave={() => setShowNav(!showNav)}
      >
       <li className="hover:scale-110 duration-300"><Link to="/artists" onClick={() => setShowNav(!showNav)}>Artists</Link></li>
       <li className="hover:scale-110 duration-300"><Link to="/about" onClick={() => setShowNav(!showNav)}>About</Link></li>
