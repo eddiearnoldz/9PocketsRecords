@@ -11,10 +11,8 @@ I also embedded spotify playlist and YouTube videos for the first time creating 
 I used continuous deployment with Github and Netlify to deploy the project and this means i can continue to add to it as the website develops.  It is my first time building a site for a client and am still trying to figure out how to be able to adjust data as and when they need to. Currently all folders folders that store either images or data for the site can be updated and then replace the old ones but this seems tricky for the client. I will need to investigate further to see how websites are updated and what the best practice is.
 
 # Screenshots
-  <img src="./public/images/screenshots/Screenshot 2022-04-19 at 18.37.41.png" width="400px"/> 
-  <img src="./public/images/screenshots/Screenshot 2022-04-19 at 18.38.00.png" width="400px"/> 
-  <img src="./public/images/screenshots/Screenshot 2022-04-19 at 18.38.03.png" width="400px"/> 
-  <img src="./public/images/screenshots/Screenshot 2022-04-19 at 18.38.11.png" width="400px"/> 
-  <img src="./public/images/screenshots/Screenshot 2022-04-19 at 18.38.24.png" width="400px"/>
-  <img src="./public/images/screenshots/Screenshot 2022-04-19 at 19.24.31.png" width="200px"/>
-  <img src="./public/images/screenshots/Screenshot 2022-04-19 at 19.27.30.png" width="200px"/>
+| | |
+|:-------------------------:|:-------------------------:|
+  <img src="./public/images/screenshots/Screenshot 2022-04-19 at 18.37.41.png" width="400px"/> | <img src="./public/images/screenshots/Screenshot 2022-04-19 at 18.38.00.png" width="400px"/> |
+  |<img src="./public/images/screenshots/Screenshot 2022-04-19 at 18.38.03.png" width="400px"/> | <img src="./public/images/screenshots/Screenshot 2022-04-19 at 18.38.11.png" width="400px"/> |
+  |<img src="./public/images/screenshots/Screenshot 2022-04-19 at 18.38.24.png" width="400px"/> | <img src="./public/images/screenshots/Screenshot 2022-04-19 at 19.24.31.png" width="200px"/><img src="./public/images/screenshots/Screenshot 2022-04-19 at 19.27.30.png" width="200px"/>|
