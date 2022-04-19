@@ -32,21 +32,21 @@ return (
       }
       onMouseLeave={() => setShowNav(!showNav)}
      >
-       <div className="static">
-        <li className="hover:scale-110 duration-300">
-          <button onClick={()=> setIsOpen(!isOpen)}>Artists</button>
+       <div className="static ">
+        <li className="hover:scale-110  duration-300">
+          <button className="hover:text-red-700" onClick={()=> setIsOpen(!isOpen)}>Artists</button>
             {isOpen && (
-              <div className="rounded-lg mt-5 md:absolute" onMouseLeave={()=> setIsOpen(!isOpen)}>
-                <li className="block py-1 hover:scale-110 duration-300"><Link to="/artists/mulimba">Mulimba</Link></li>
-                <li className="block py-1 hover:scale-110 duration-300"><Link to="/artists/leap">Leap</Link></li>
-                <li className=" block py-1 hover:scale-110 duration-300"><Link to="/artists/neckandneck">N&N</Link></li>
+              <div className="rounded-lg mt-5 md:absolute bg-black opacity-80 text-center" onMouseLeave={()=> setIsOpen(!isOpen)}>
+                <li className="block p-1 hover:scale-110 duration-300"><Link to="/artists/mulimba">Mulimba</Link></li>
+                <li className="block p-1 hover:scale-110 duration-300"><Link to="/artists/leap">Leap</Link></li>
+                <li className="block p-1 hover:scale-110 duration-300"><Link to="/artists/neckandneck">N&N</Link></li>
               </div>
             )}
         </li>
        </div>
-      <li className="hover:scale-110 duration-300"><Link to="/live">Live</Link></li>
-      <li className="hover:scale-110 duration-300"><Link to="/about">About</Link></li>
-      <li className="hover:scale-110 duration-300"><Link to="/contact">Contact</Link></li>
+      <li className="hover:scale-110 hover:text-red-700 duration-300"><Link to="/live">Live</Link></li>
+      <li className="hover:scale-110 hover:text-red-700 duration-300"><Link to="/about">About</Link></li>
+      <li className="hover:scale-110 hover:text-red-700 duration-300"><Link to="/contact">Contact</Link></li>
 
     </ul>
   </nav> 

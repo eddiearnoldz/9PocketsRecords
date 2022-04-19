@@ -11,24 +11,26 @@ const Act = ({ bandLogo, mainImage, bio, spotifyName, spotifyData, video2, video
             <div className="flex flex-col col-span-3 mb-10">
               <img  src={bandLogo} alt=""></img>
             </div>
-            <div className="flex flex-col col-span-3">
+            <div className="flex flex-col col-span-3 my-5">
               <img className="rounded" src={mainImage} alt="pressImg"/>
             </div>
               <div className="flex flex-col col-span-3 text-center m-5">
                 <p className="text-white">{bio}</p>
               </div>
-              <div className="flex flex-col col-span-3">
+              <div className="flex flex-col col-span-3 my-5">
                 <iframe className="rounded" title={spotifyName} src={spotifyData} width="100%" height="280" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
               </div>
-                <div className="grid col-span-1 m-1">
+              
+                <div className="grid col-span-1 my-5 m-1">
                   <img className="rounded" src={image1} alt=""/>
                 </div>
-                <div className="grid col-span-1 m-1">
+                <div className="grid col-span-1 my-5 m-1">
                   <img className="rounded" src={image2} alt=""/>
                 </div>
-                <div className="grid col-span-1 m-1">
+                <div className="grid col-span-1 my-5 m-1">
                   <img className="rounded" src={image3} alt=""/>
                 </div>
+      
                 <div className="flex flex-col col-span-3 m-5">
                 <YoutubeEmbedder embedId={video1}/>
                 </div>
