@@ -45,7 +45,7 @@ const Contact = () => {
                 <input 
                   type="text" 
                   placeholder="Name"
-                  className="form-input px-3 py-2 rounded-md"
+                  className="form-input px-3 py-2 rounded-md text-black"
                   id="name" 
                   name='from_name'
                   required="true"
@@ -56,7 +56,7 @@ const Contact = () => {
                 <input 
                   type="text" 
                   placeholder="Email"
-                  className="form-input px-3 py-2 rounded-md"
+                  className="form-input px-3 py-2 rounded-md text-black"
                   id="email" 
                   name='from_email'
                   required="true"
@@ -66,7 +66,7 @@ const Contact = () => {
               <div className="flex flex-col col-span-2">
                 <textarea 
                   type="textarea" 
-                  className="form-input px-3 py-2 rounded-md"
+                  className="form-input px-3 py-2 rounded-md text-black"
                   id="text"
                   rows={5}
                   cols={5}
