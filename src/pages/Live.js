@@ -1,6 +1,4 @@
 import AllTourDates from "../components/Dates Table/AllTourDatesTable"
-import BandTourDatesTable from "../components/Dates Table/BandTourDatesTable"
-
 const Live = () => {
   return (
     <>

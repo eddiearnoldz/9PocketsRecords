@@ -13,13 +13,14 @@ import Live from './pages/Live';
 import Mulimba from './pages/Acts/Mulimba';
 import Leap from './pages/Acts/Leap';
 import NeckAndNeck from './pages/Acts/NeckAndNeck';
+import Layout from './components/Layout';
 
 
 function App() {
   return (
     <BrowserRouter>
     <ScrollToTop/>
-      <NavBar/>
+    <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path='/artists/mulimba' element={<Mulimba />}/>
@@ -29,7 +30,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/live" element={<Live />} />
         </Routes>
-      <Footer/>
+    </Layout>
     </BrowserRouter>
   )
 }

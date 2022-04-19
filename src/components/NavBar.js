@@ -11,13 +11,13 @@ return (
     <Link to="/">
       <img 
         className='h-10 w-51 m-3 ml-10 hover:scale-110 duration-300' 
-        src={'/images/9Plogo.png'} alt="logo"/>
+        src={'/images/9Pockets/9Plogo.png'} alt="logo"/>
     </Link>
     <Link to="#">
       <img 
         onClick={() => setShowNav(!showNav)}
         className='h-7 w-7 mr-8 ml-10 cursor-pointer md:hidden block'
-        src='/images/white-menu-icon-4.jpg' alt="logo"/>
+        src='/images/9Pockets/white-menu-icon-4.jpg' alt="logo"/>
     </Link>
     </div>
 
@@ -28,7 +28,7 @@ return (
       md:flex xl:space-x-11 lg:space-x-9
       md:space-x-7 items-center md:bg-transparent bg-black bg-opacity-90 rounded-md
       md:w-auto w-4/12 text-white
-      md:space-y-0 sm:space-y-5 space-y-7 text-center sm:text-left pr-20 p-8 transition-right duration-1000`
+      md:space-y-0 sm:space-y-5 space-y-7 text-center sm:text-left pr-20 p-8 transition-right ease-in duration-700`
       }
       onMouseLeave={() => setShowNav(!showNav)}
      >

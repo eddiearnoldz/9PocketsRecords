@@ -7,7 +7,7 @@ const About = () => {
           Indie label Est. 2021. Distributed via Ingrooves
         </h1>
         <div>
-          <img src="/images/9Plogo.png" alt=""/>
+          <img src="/images/9Pockets/9Plogo.png" alt=""/>
         </div>
         </div>
       </div>
