@@ -26,6 +26,12 @@ const Contact = () => {
     .catch((err) => {
       console.log('FAILED...', err);
     });
+
+    setToSend({
+      from_name: '',
+      text: '',
+      from_email: '',
+    })
   };
 
   const handleChange = (e) => {
