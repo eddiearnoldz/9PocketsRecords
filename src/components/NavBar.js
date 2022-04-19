@@ -36,7 +36,7 @@ return (
         <li className="hover:scale-110 duration-300">
           <button onClick={()=> setIsOpen(!isOpen)}>Artists</button>
             {isOpen && (
-              <div className="rounded-lg mt-5 absolute" onMouseLeave={()=> setIsOpen(!isOpen)}>
+              <div className="rounded-lg mt-5 md:absolute" onMouseLeave={()=> setIsOpen(!isOpen)}>
                 <li className="block py-1 hover:scale-110 duration-300"><Link to="/artists/mulimba">Mulimba</Link></li>
                 <li className="block py-1 hover:scale-110 duration-300"><Link to="/artists/leap">Leap</Link></li>
                 <li className=" block py-1 hover:scale-110 duration-300"><Link to="/artists/neckandneck">N&N</Link></li>

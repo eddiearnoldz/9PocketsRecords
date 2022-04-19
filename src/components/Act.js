@@ -6,7 +6,7 @@ const Act = ({ bandLogo, mainImage, bio, spotifyName, spotifyData, video2, video
   return (
     <>
       <div className="grid place-items-center h-full">
-        <div className="p-6 max-w-2xl content-center mt-20">
+        <div className="p-6 max-w-2xl content-center ">
           <div className="grid grid-cols-3 gap-5">
             <div className="flex flex-col col-span-3 mb-10">
               <img  src={bandLogo} alt=""></img>

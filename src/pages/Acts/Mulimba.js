@@ -3,8 +3,8 @@ import Act from "../../components/Act";
 const Mulimba = () => {
   return (
     <Act 
-    bandLogo="/images/Mulimba Logo FIX.png" 
-    mainImage="/images/MULIMBA PRESS SHOTS/MULIMBA PRESS (landscape).jpg"
+    bandLogo="/images/MULIMBA/Mulimba Logo FIX.png" 
+    mainImage="/images/MULIMBA/MULIMBA PRESS (landscape).jpg"
     bio="Since first emerging on the scene as a solo artist in 2019, 
         Mulimba (aka Ash) has been developing both a sound and an unpredictability that 
         make him one of the most exciting artists of 2021. 
