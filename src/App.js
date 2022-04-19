@@ -4,11 +4,9 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import ScrollToTop from "./components/middleware/ScrollToTop";
 
 //import components
-import NavBar from './components/NavBar';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
-import Footer from './components/Footer';
 import Live from './pages/Live';
 import Mulimba from './pages/Acts/Mulimba';
 import Leap from './pages/Acts/Leap';

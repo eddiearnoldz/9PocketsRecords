@@ -10,7 +10,7 @@ const NeckAndNeck = () => {
     spotifyData="https://open.spotify.com/embed/artist/5VLS4wPeZEglCmEM4DHVNr?utm_source=generator"
     image1="/images/N&N/N&N_BL_AW_FINAL.jpg"
     image2="/images/N&N/AfterlightImage.jpg"
-    image3="/images/N&N Pics/N&N_CIWYL_Artwork_FIX.jpg"
+    image3="/images/N&N/N&N_CIWYL_Artwork_FIX.jpg"
     video1="t-FSWVqyxIo?modestbranding=1&rel=0"
     video2="WxJ1s9ze0dM?modestbranding=1&rel=0"
     band="N&N"

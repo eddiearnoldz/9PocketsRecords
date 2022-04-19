@@ -15,35 +15,35 @@ const Act = ({ bandLogo, mainImage, bio, spotifyName, spotifyData, video2, video
             <div className="flex flex-col col-span-3 my-5">
               <img className="rounded" src={mainImage} alt="pressImg"/>
             </div>
-              <div className="flex flex-col col-span-3 text-center m-5">
-                <p className="text-white">{bio}</p>
-              </div>
-              <div className="flex flex-col col-span-3 my-5">
-                <iframe className="rounded" title={spotifyName} src={spotifyData} width="100%" height="280" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-              </div>
+            <div className="flex flex-col col-span-3 text-center m-5">
+              <p className="text-white">{bio}</p>
+            </div>
+            <div className="flex flex-col col-span-3 my-5">
+              <iframe className="rounded" title={spotifyName} src={spotifyData} width="100%" height="280" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            </div>
               
-                <div className="grid col-span-1 my-5 m-1">
-                  <img className="rounded" src={image1} alt=""/>
-                </div>
-                <div className="grid col-span-1 my-5 m-1">
-                  <img className="rounded" src={image2} alt=""/>
-                </div>
-                <div className="grid col-span-1 my-5 m-1">
-                  <img className="rounded" src={image3} alt=""/>
-                </div>
-      
-                <div className="flex flex-col col-span-3 m-5">
-                  <YoutubeEmbedder embedId={video1}/>
-                </div>
-                <div className="flex flex-col col-span-3 m-5">
-                  <YoutubeEmbedder embedId={video2}/>
-                </div>
-                <div className="flex flex-col col-span-3 m-5">
-                  <h1 className="text-center py-2">{band}'s Tour Dates</h1>
-                  <BandTourDatesTable name={band}/>
-                </div>
+            <div className="grid col-span-1 my-5 m-1">
+              <img className="rounded" src={image1} alt=""/>
+            </div>
+            <div className="grid col-span-1 my-5 m-1">
+              <img className="rounded" src={image2} alt=""/>
+            </div>
+            <div className="grid col-span-1 my-5 m-1">
+              <img className="rounded" src={image3} alt=""/>
+            </div>
+  
+            <div className="flex flex-col col-span-3 m-5">
+              <YoutubeEmbedder embedId={video1}/>
+            </div>
+            <div className="flex flex-col col-span-3 m-5">
+              <YoutubeEmbedder embedId={video2}/>
+            </div>
+            <div className="flex flex-col col-span-3 m-5">
+              <h1 className="text-center py-2">{band}'s Tour Dates</h1>
+              <BandTourDatesTable name={band}/>
             </div>
           </div>
+        </div>
       </div>
     </>
   )
