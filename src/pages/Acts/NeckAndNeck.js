@@ -13,8 +13,8 @@ const NeckAndNeck = () => {
     image3="/images/N&N Pics/N&N_CIWYL_Artwork_FIX.jpg"
     video1="t-FSWVqyxIo?modestbranding=1&rel=0"
     video2="WxJ1s9ze0dM?modestbranding=1&rel=0"
+    band="N&N"
     />
   )
 }
-<iframe src="https://open.spotify.com/embed/artist/5VLS4wPeZEglCmEM4DHVNr?utm_source=generator&theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 export default NeckAndNeck

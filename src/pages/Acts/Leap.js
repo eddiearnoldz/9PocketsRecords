@@ -22,6 +22,7 @@ const Leap = () => {
     image3="/images/LEAP/WTSG ARTWORK.jpg"
     video1="HgYJJliMq8A?modestbranding=1&rel=0"
     video2="_By2Tj-Q9qc?modestbranding=1&rel=0"
+    band="LEAP"
     />
   )
 }

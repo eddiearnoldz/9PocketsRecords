@@ -20,6 +20,7 @@ const Mulimba = () => {
     image3="/images/MULIMBA PRESS SHOTS/Press Shot 03.jpg"
     video1="IdMyOcQR338?modestbranding=1&rel=0"
     video2="BZsf2SvUiOY?modestbranding=1&rel=0"
+    band="MULIMBA"
     />
   )
 }

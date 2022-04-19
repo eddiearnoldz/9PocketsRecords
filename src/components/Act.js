@@ -1,8 +1,9 @@
 import YoutubeEmbedder from "./YouTubeEmbedder";
 import PropTypes from "prop-types";
+import BandTourDatesTable from "./Dates Table/BandTourDatesTable";
 
 
-const Act = ({ bandLogo, mainImage, bio, spotifyName, spotifyData, video2, video1, image1, image2, image3 }) => {
+const Act = ({ bandLogo, mainImage, bio, spotifyName, spotifyData, video2, video1, image1, image2, image3, band }) => {
   return (
     <>
       <div className="grid place-items-center h-full">
@@ -32,10 +33,14 @@ const Act = ({ bandLogo, mainImage, bio, spotifyName, spotifyData, video2, video
                 </div>
       
                 <div className="flex flex-col col-span-3 m-5">
-                <YoutubeEmbedder embedId={video1}/>
+                  <YoutubeEmbedder embedId={video1}/>
                 </div>
                 <div className="flex flex-col col-span-3 m-5">
-                <YoutubeEmbedder embedId={video2}/>
+                  <YoutubeEmbedder embedId={video2}/>
+                </div>
+                <div className="flex flex-col col-span-3 m-5">
+                  <h1 className="text-center py-2">{band}'s Tour Dates</h1>
+                  <BandTourDatesTable name={band}/>
                 </div>
             </div>
           </div>
@@ -55,6 +60,7 @@ Act.propTypes = {
   image3: PropTypes.string.isRequired,
   video1: PropTypes.string.isRequired,
   video2: PropTypes.string.isRequired,
+  band: PropTypes.string.isRequired,
 };
 export default Act
 
