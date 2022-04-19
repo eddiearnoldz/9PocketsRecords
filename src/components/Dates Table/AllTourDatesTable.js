@@ -4,7 +4,7 @@ const AllTourDatesTable = () => {
   
   return (
     <>
-      <table className="grid table-auto place-items-center">
+      <table className="grid table-auto place-items-center sm:text-base text-xs">
         <tbody>
           { BandDates.map((data, key) => {
             return (
