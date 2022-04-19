@@ -31,23 +31,22 @@ const NavBar = () => {
         md:w-auto w-4/12 text-white
         md:space-y-0 sm:space-y-5 space-y-7 text-center sm:text-left pr-20 p-8 transition-right ease-in duration-500`
         }
-        onMouseLeave={() => setShowNav(!showNav)}
       >
         <div className="static ">
           <li className="hover:scale-110  duration-300">
             <button className="hover:text-red-700" onClick={()=> setIsOpen(!isOpen)}>Artists</button>
               {isOpen && (
-                <div className="rounded-lg mt-5 md:absolute bg-black opacity-80 text-center" onMouseLeave={()=> setIsOpen(!isOpen)}>
-                  <li className="block p-1 hover:scale-110 duration-300"><Link to="/artists/mulimba">Mulimba</Link></li>
-                  <li className="block p-1 hover:scale-110 duration-300"><Link to="/artists/leap">Leap</Link></li>
-                  <li className="block p-1 hover:scale-110 duration-300"><Link to="/artists/neckandneck">N&N</Link></li>
+                <div className="rounded-lg mt-5 md:absolute bg-black opacity-80">
+                  <li className="block p-1 hover:scale-110 duration-300"><Link to="/artists/mulimba" onClick={() => {setShowNav(!showNav); setIsOpen(!isOpen)}}>Mulimba</Link></li>
+                  <li className="block p-1 hover:scale-110 duration-300"><Link to="/artists/leap" onClick={() => {setShowNav(!showNav); setIsOpen(!isOpen)}}>Leap</Link></li>
+                  <li className="block p-1 hover:scale-110 duration-300"><Link to="/artists/neckandneck" onClick={() => {setShowNav(!showNav); setIsOpen(!isOpen)}}>N&N</Link></li>
                 </div>
               )}
           </li>
         </div>
-        <li className="hover:scale-110 hover:text-red-700 duration-300"><Link to="/live">Live</Link></li>
-        <li className="hover:scale-110 hover:text-red-700 duration-300"><Link to="/about">About</Link></li>
-        <li className="hover:scale-110 hover:text-red-700 duration-300"><Link to="/contact">Contact</Link></li>
+        <li className="hover:scale-110 hover:text-red-700 duration-300"><Link to="/live" onClick={() => setShowNav(!showNav)}>Live</Link></li>
+        <li className="hover:scale-110 hover:text-red-700 duration-300"><Link to="/about" onClick={() => setShowNav(!showNav)}>About</Link></li>
+        <li className="hover:scale-110 hover:text-red-700 duration-300"><Link to="/contact" onClick={() => setShowNav(!showNav)}>Contact</Link></li>
 
       </ul>
     </nav> 
