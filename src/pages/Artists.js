@@ -1,4 +1,4 @@
-import Act from "./Act"
+import Act from "../components/Act"
 
 const Artists = () => {
   return (
