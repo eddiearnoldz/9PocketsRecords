@@ -15,7 +15,8 @@ I used continuous deployment with Github and Netlify to deploy the project and t
 |:-------------------------:|:-------------------------:|
   <img src="./public/images/screenshots/Screenshot 2022-04-19 at 18.37.41.png" width="400px"/> | <img src="./public/images/screenshots/Screenshot 2022-04-19 at 18.38.00.png" width="400px"/> |
   |<img src="./public/images/screenshots/Screenshot 2022-04-19 at 18.38.03.png" width="400px"/> | <img src="./public/images/screenshots/Screenshot 2022-04-19 at 18.38.11.png" width="400px"/> |
-  |<img src="./public/images/screenshots/Screenshot 2022-04-19 at 18.38.24.png" width="400px"/> | <img src="./public/images/screenshots/Screenshot 2022-04-19 at 19.24.31.png" width="180px"/><img src="./public/images/screenshots/Screenshot 2022-04-19 at 19.27.30.png" width="180px"/>|
+  |<img src="./public/images/screenshots/Screenshot 2022-04-19 at 18.38.24.png" width="400px"/> | <img src="./public/images/screenshots/Screenshot 2022-04-19 at 19.24.31.png" width="180px"/> |
+  | <img src="./public/images/screenshots/Screenshot 2022-04-19 at 19.27.30.png" width="180px"/> | 
 
   # Resources and Links
 
