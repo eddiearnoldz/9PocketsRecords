@@ -1,8 +1,14 @@
+import AllTourDates from "../components/Dates Table/AllTourDatesTable"
+import BandTourDatesTable from "../components/Dates Table/BandTourDatesTable"
+
 const Live = () => {
   return (
     <>
-  <h1 className="text-xl text-white font-bold underline m-5">Live</h1>
+     <h1 className="text-center mb-10">Latest gigs</h1>
+    <AllTourDates/>
+    <BandTourDatesTable name="LEAP"/>
     </>
+   
   )
 }
 export default Live
