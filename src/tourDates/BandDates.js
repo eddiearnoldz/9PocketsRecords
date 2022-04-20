@@ -36,7 +36,7 @@ export const BandDates = [
       link: "https://www.ents24.com/london-events/the-old-blue-last/mulimba/6440312"
     },
     {
-      band: "N&N",
+      band: "NECK&NECK",
       Location: "Bristol, UK",
       Date: "06/06/2022",
       link: "https://www.ents24.com/london-events/the-old-blue-last/mulimba/6440312"

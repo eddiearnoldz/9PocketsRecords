@@ -6,39 +6,39 @@ import BandTourDatesTable from "./Dates Table/BandTourDatesTable";
 const Act = ({ bandLogo, mainImage, bio, spotifyName, spotifyData, video2, video1, image1, image2, image3, band }) => {
   return (
     <>
-      <div className="grid place-items-center h-full">
+      <div className="md:grid place-items-center h-full">
         <div className="p-6 max-w-2xl content-center ">
-          <div className="grid grid-cols-3 gap-5">
-            <div className="flex flex-col col-span-3 mb-10">
-              <img  src={bandLogo} alt=""></img>
+          <div className="grid grid-cols-6 gap-5">
+            <div className="flex flex-col my-5 col-start-3 col-end-5">
+              <img className="" src={bandLogo} alt=""></img>
             </div>
-            <div className="flex flex-col col-span-3 my-5">
+            <div className="flex flex-col col-span-6 my-5">
               <img className="rounded" src={mainImage} alt="pressImg"/>
             </div>
-            <div className="flex flex-col col-span-3 text-center m-5">
+            <div className="flex flex-col col-span-6 text-center m-5">
               <p className="text-white">{bio}</p>
             </div>
-            <div className="flex flex-col col-span-3 my-5">
+            <div className="flex flex-col col-span-6 my-5">
               <iframe className="rounded" title={spotifyName} src={spotifyData} width="100%" height="280" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
             </div>
               
-            <div className="grid col-span-1 my-5 m-1">
+            <div className="grid sm:col-span-2 col-span-6 my-5 m-1">
               <img className="rounded" src={image1} alt=""/>
             </div>
-            <div className="grid col-span-1 my-5 m-1">
+            <div className="grid sm:col-span-2 col-span-6 my-5 m-1">
               <img className="rounded" src={image2} alt=""/>
             </div>
-            <div className="grid col-span-1 my-5 m-1">
+            <div className="grid sm:col-span-2 col-span-6 my-5 m-1">
               <img className="rounded" src={image3} alt=""/>
             </div>
   
-            <div className="flex flex-col col-span-3 m-5">
+            <div className="flex flex-col col-span-6 m-5">
               <YoutubeEmbedder embedId={video1}/>
             </div>
-            <div className="flex flex-col col-span-3 m-5">
+            <div className="flex flex-col col-span-6 m-5">
               <YoutubeEmbedder embedId={video2}/>
             </div>
-            <div className="flex flex-col col-span-3 m-5">
+            <div className="flex flex-col col-span-6 m-5">
               <h1 className="text-center py-2">{band}'s Tour Dates</h1>
               <BandTourDatesTable name={band}/>
             </div>

@@ -7,7 +7,7 @@ const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <nav className='md:flex md:justify-between justify-center items-center  bg-black sticky top-0 z-20'>
+    <nav className='md:flex md:justify-between justify-center items-center bg-black sticky top-0 z-20'>
       <div className= "flex items-center justify-between">
         <Link to="/">
           <img 
