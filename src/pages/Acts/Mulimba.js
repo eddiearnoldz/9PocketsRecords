@@ -19,13 +19,15 @@ const Mulimba = () => {
           <p> NOTION </p>
           </div>
           <div className="flex flex-col col-span-6 text-center m-3">
-            <p className="text-white">Kanye West-inspired gospel beats laced with electro Daft Punk-style hooks provide one of the most 
+            <p className="text-white pb-5">Kanye West-inspired gospel beats laced with electro Daft Punk-style hooks provide one of the most 
             aggressively original soundscapes for MULIMBA's indie vocal to shine on. 
             A true artist with his hands firmly wrapped around a sound that he's spent his whole life trying to find, 
             it seems like everything in Ash's life up to this point has been RnD for this very moment in his career.
-            Having already supported the likes of Tom Walker and Elderbrook, 
+            </p>
+            <p>Having already supported the likes of Tom Walker and Elderbrook, 
             MULIMBA is building towards his debut EP with palpable excitement.
             </p>
+           
           </div>
           <div className="flex flex-col col-span-6 my-5">
             <iframe className="rounded" title="MULIMBA" src="https://open.spotify.com/embed/artist/6qXDwwXdqZp0R4MzTSn7jR?utm_source=generator" width="100%" height="280" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>

@@ -18,19 +18,19 @@ const NeckAndNeck = () => {
           <p> BBC INTRODUCING </p>
           </div>
           <div className="flex flex-col col-span-6 text-center m-5">
-            <p className="text-white">'Neck&Neck is the new genre-bending artist project from award-winning writer-producer duo 9Pockets.
+            <p className="text-white">Neck&Neck is the new genre-bending artist project from award-winning writer-producer duo 9Pockets.
                 Having worked together for the past few years on a number of artist, commercial and film projects in their London Fields studio, 
-                Tom Leach and Joey Arnold have finally honed in on a sound that is truly unique.'
+                Tom Leach and Joey Arnold have finally honed in on a sound that is truly unique.
             </p>
           </div>
           <div className="flex flex-col col-span-6 my-5">
             <iframe className="rounded" title="NeckAndNeck" src="https://open.spotify.com/embed/artist/5VLS4wPeZEglCmEM4DHVNr?utm_source=generator" width="100%" height="280" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
           </div>
             
-          <div className="grid sm:col-span-2 col-span-6 my-5 m-1">
+          <div className="grid sm:col-span-3 col-span-6 my-5 m-1">
             <img className="rounded" src="/images/N&N/N&N_BL_AW_FINAL.jpg" alt=""/>
           </div>
-          <div className="grid sm:col-span-2 col-span-6 my-5 m-1">
+          <div className="grid sm:col-span-3 col-span-6 my-5 m-1">
             <img className="rounded" src="/images/N&N/N&N_CIWYL_Artwork_FIX.jpg" alt=""/>
           </div>
 
