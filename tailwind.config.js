@@ -8,6 +8,7 @@ module.exports = {
         'right': 'right',
       }
     },
+    display: ['group-hover']
   },
   plugins: [],
 }
