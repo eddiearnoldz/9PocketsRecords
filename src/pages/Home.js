@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <>
       <div className="grid h-full place-items-center justify-center">
-          <div className="grid  grid-cols-3 mx-5 max-w-6xl ">
+          <div className="grid grid-cols-3 mx-5 max-w-6xl">
             <div className="hover:scale-105 sm:col-span-1 col-span-3 duration-300 p-3 object-fit relative group text-center">
               <Link to='/artists/mulimba'>
                 <img className="rounded-md z-1" src="/images/MULIMBA/mulimba release post.jpg" alt="MULIMBA"/>
