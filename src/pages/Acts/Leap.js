@@ -15,9 +15,9 @@ const Leap = () => {
               <img className="rounded" src="/images/LEAP/LEAP Landscape.jpg" alt="pressImg"/>
             </div>
             <div className="flex flex-col col-start-2 col-span-4 text-center text-sm m-5 ">
-            <p className="text-white italic pb-2">“Perfectly executed, gloomy alternative rock”</p>
-            <p> EARMILK </p>
-            <p className="text-white italic pb-2">“The kind of music the repeat button was made for”</p>
+            <p className="italic pb-2">“Perfectly executed, gloomy alternative rock”</p>
+            <p className="pb-4"> EARMILK </p>
+            <p className="italic pb-2">“The kind of music the repeat button was made for”</p>
             <p> INDIEISNOTAGENRE </p>
             </div>
             <div className="flex flex-col col-span-6 text-center m-3">
