@@ -12,7 +12,6 @@ import Mulimba from './pages/Acts/Mulimba';
 import Leap from './pages/Acts/Leap';
 import NeckAndNeck from './pages/Acts/NeckAndNeck';
 import Layout from './components/Layout';
-import Footer from './components/Footer';
 
 
 function App() {
