@@ -13,7 +13,7 @@ const NeckAndNeck = () => {
     image3="/images/N&N/N&N_CIWYL_Artwork_FIX.jpg"
     video1="t-FSWVqyxIo?modestbranding=1&rel=0"
     video2="WxJ1s9ze0dM?modestbranding=1&rel=0"
-    band="N&N"
+    band="NECK&NECK"
     />
   )
 }

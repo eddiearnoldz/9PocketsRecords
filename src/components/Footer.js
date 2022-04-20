@@ -2,7 +2,7 @@ const Footer = () => {
   
   return (
     <>
-      <footer className=" text-center static ">
+      <footer className=" text-center static">
        <a href="https://goo.gl/maps/mzCTwWnos4HjF3ap9"><p>📍 London Fields, E8 3SE</p></a>
       </footer>
     </>

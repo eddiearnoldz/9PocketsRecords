@@ -12,6 +12,7 @@ import Mulimba from './pages/Acts/Mulimba';
 import Leap from './pages/Acts/Leap';
 import NeckAndNeck from './pages/Acts/NeckAndNeck';
 import Layout from './components/Layout';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -19,15 +20,15 @@ function App() {
     <BrowserRouter>
     <ScrollToTop/>
     <Layout>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path='/artists/mulimba' element={<Mulimba />}/>
-          <Route path='/artists/leap' element={<Leap />}/>
-          <Route path='/artists/neckandneck' element={<NeckAndNeck />}/>
-          <Route path="/about" element={<About/>} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/live" element={<Live />} />
-        </Routes>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path='/artists/mulimba' element={<Mulimba />}/>
+        <Route path='/artists/leap' element={<Leap />}/>
+        <Route path='/artists/neckandneck' element={<NeckAndNeck />}/>
+        <Route path="/about" element={<About/>} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/live" element={<Live />} />
+      </Routes>
     </Layout>
     </BrowserRouter>
   )
