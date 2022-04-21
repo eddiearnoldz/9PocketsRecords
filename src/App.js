@@ -13,7 +13,7 @@ import Leap from './pages/Acts/Leap';
 import NeckAndNeck from './pages/Acts/NeckAndNeck';
 import Layout from './components/Layout';
 
-
+//app function
 function App() {
   return (
     <BrowserRouter>
