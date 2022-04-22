@@ -33,10 +33,10 @@ const Mulimba = () => {
             <iframe className="rounded" title="MULIMBA" src="https://open.spotify.com/embed/artist/6qXDwwXdqZp0R4MzTSn7jR?utm_source=generator" width="100%" height="280" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
           </div>
           <div className="grid sm:col-span-2 col-span-6 my-5 m-1">
-            <img className="rounded" src="/images/MULIMBA/MUL CG FINAL.jpg" alt=""/>
+            <img className="rounded" src="/images/MULIMBA/MULIMBA_BID_FINAL.jpg" alt=""/>
           </div>
           <div className="grid sm:col-span-2 col-span-6 my-5 m-1">
-            <img className="rounded" src="/images/MULIMBA/MULIMBA_BID_FINAL.jpg" alt=""/>
+            <img className="rounded" src="/images/MULIMBA/MUL CG FINAL.jpg" alt=""/>
           </div>
           <div className="grid sm:col-span-2 col-span-6 my-5 m-1">
             <img className="rounded" src="/images/MULIMBA/H.I.G. FINAL ARTWORK.jpg" alt=""/>

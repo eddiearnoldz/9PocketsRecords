@@ -37,10 +37,10 @@ const Leap = () => {
               <iframe className="rounded" title="LEAP" src="https://open.spotify.com/embed/artist/538iX6YCTybcgzsrjDTrFi?utm_source=generator&theme=0" width="100%" height="280" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
             </div>
             <div className="grid sm:col-span-2 col-span-6 my-5 m-1">
-              <img className="rounded" src="/images/LEAP/ENERGIES FINAL ARTWORK.jpeg" alt=""/>
+              <img className="rounded" src="/images/LEAP/BLOOD & WINE_Artwork_Final.jpg" alt=""/>
             </div>
             <div className="grid sm:col-span-2 col-span-6 my-5 m-1">
-              <img className="rounded" src="/images/LEAP/BLOOD & WINE_Artwork_Final.jpg" alt=""/>
+              <img className="rounded" src="/images/LEAP/ENERGIES FINAL ARTWORK.jpeg" alt=""/>
             </div>
             <div className="grid sm:col-span-2 col-span-6 my-5 m-1">
               <img className="rounded" src="/images/LEAP/WTSG ARTWORK.jpg" alt=""/>
@@ -50,6 +50,9 @@ const Leap = () => {
             </div>
             <div className="flex flex-col col-span-6 m-5">
               <YoutubeEmbedder embedId="_By2Tj-Q9qc?modestbranding=1&rel=0"/>
+            </div>
+            <div className="flex flex-col col-span-6 m-5">
+              <YoutubeEmbedder embedId="she-7yB8rNU?modestbranding=1&rel=0"/>
             </div>
             <div className="flex flex-col col-span-6 mb-10">
               <h1 className="text-center py-2">LEAP's Tour Dates</h1>

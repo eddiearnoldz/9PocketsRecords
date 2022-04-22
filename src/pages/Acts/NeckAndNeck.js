@@ -26,14 +26,12 @@ const NeckAndNeck = () => {
           <div className="flex flex-col col-span-6 my-5">
             <iframe className="rounded" title="NeckAndNeck" src="https://open.spotify.com/embed/artist/5VLS4wPeZEglCmEM4DHVNr?utm_source=generator" width="100%" height="280" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
           </div>
-            
-          <div className="grid sm:col-span-3 col-span-6 my-5 m-1">
-            <img className="rounded" src="/images/N&N/N&N_BL_AW_FINAL.jpg" alt=""/>
-          </div>
           <div className="grid sm:col-span-3 col-span-6 my-5 m-1">
             <img className="rounded" src="/images/N&N/N&N_CIWYL_Artwork_FIX.jpg" alt=""/>
           </div>
-
+          <div className="grid sm:col-span-3 col-span-6 my-5 m-1">
+            <img className="rounded" src="/images/N&N/N&N_BL_AW_FINAL.jpg" alt=""/>
+          </div>
           <div className="flex flex-col col-span-6 m-5">
             <YoutubeEmbedder embedId="t-FSWVqyxIo?modestbranding=1&rel=0"/>
           </div>
