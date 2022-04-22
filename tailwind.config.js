@@ -6,7 +6,7 @@ module.exports = {
     extend: {
       transitionProperty: {
         'right': 'right',
-      }
+      },
     },
     display: ['group-hover']
   },

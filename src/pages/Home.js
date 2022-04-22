@@ -21,8 +21,11 @@ const Home = () => {
             <div className="hover:scale-105 sm:col-span-1 col-span-3 duration-500 p-3 object-fit relative group text-center">
               <Link to='/artists/neckandneck'>
                 <img className="rounded-md" src="/images/N&N/AfterlightImage.jpg" alt="NECK&NECK"/>
-                <div className=" invisible group-hover:visible relative py-2 text-3xl font-bold">NECK&NECK</div>
+                <div className=" invisible group-hover:visible focus:visible relative py-2 text-3xl font-bold">NECK&NECK</div>
               </Link>
+            </div>
+            <div>
+
             </div>
           </div>
       </div>
