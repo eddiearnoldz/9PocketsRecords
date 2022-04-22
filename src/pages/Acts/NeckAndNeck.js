@@ -41,6 +41,7 @@ const NeckAndNeck = () => {
           <div className="flex flex-col col-span-6 mb-10">
             <h1 className="text-center py-2">NECK&NECK's Tour Dates</h1>
             <BandTourDatesTable name="NECK&NECK"/>
+            <h1 className="text-center py-2"> Check back in for upcoming tour dates</h1>
           </div>
         </div>
       </div>

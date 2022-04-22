@@ -18,7 +18,7 @@ const BandTourDatesTable = ({name}) => {
             })
           }
         </tbody>
-      </table>
+      </table>     
     </>
   )
 };
