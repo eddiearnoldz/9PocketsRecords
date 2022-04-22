@@ -24,20 +24,14 @@ const Home = () => {
                 <div className="invisible group-hover:visible relative py-2 text-3xl font-bold">NECK&NECK</div>
               </Link>
             </div>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
           </div>
       </div>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
     </> 
   )
 }
 
 export default Home
-
-//  sm:top-0 top-10 sm:right-0 right-1/2
