@@ -2,7 +2,7 @@
 
 A repsonsive website built with React and Tailwind CSS in a week.
 
-Visit the site @ www.9precords.com
+Visit the site @ https://9precords.netlify.app/
 
 This was my first time using tailwind CSS and have to say i am a big fan. the quick adjustment inline and having  media querires without having to go to all the css files is very handy. Slowly but surely getting used to grid/flex and all the css lingo as well as the tailwind shortcuts.
 
