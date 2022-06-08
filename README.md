@@ -1,4 +1,4 @@
-# 9 Pockets Records
+# 9 P Records
 
 A repsonsive website built with React and Tailwind CSS in a week.
 
